@@ -1,0 +1,29 @@
+<div class="box"></div>
+<style type="text/css">
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: purple;
+		animation: animate-nali-bakso 4s infinite;
+
+	}
+	@keyframes animate-nali-bakso{
+		0%{
+			transform: translate3d(0px, 0px, 0px);
+		}
+		25%{
+			transform: translate3d(500px, 0px, 0px);
+			background-color: blue;
+			border-radius: 50%;
+		}
+		50%{
+			transform: translate3d(500px,500px, 0px);
+			background-color: green;
+
+		}
+		75%{
+			transform: translate3d(0px, 500px, 500px);
+		}
+		
+	}
+</style>
